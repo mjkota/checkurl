@@ -4,7 +4,6 @@ metadata:
   labels:
     run: checkurl
   name: checkurl
-  namespace: default
 spec:
   ports:
   - port: 8080
