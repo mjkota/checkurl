@@ -17,7 +17,8 @@ First step is to deploy the deployment.
 kubectl apply -f checkurl_deployment.yaml -n <namespace>
   for e.g kubectl apply -f checkurl_deployment.yaml -n default
  ```
- This will create a deployment checkurl.
+ This will create a deployment checkurl.It will use pre created docker image mjkota/checkurl:2.0
+
  
 Second deploy the service
 ```
