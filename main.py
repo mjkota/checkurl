@@ -20,7 +20,6 @@ if __name__ == '__main__':
     prom.start_http_server(8080)
 
     while True:
-        # counter.inc(random.random())
         for i in url:
             status, response_time = check_url(i)
             if status == 200:
