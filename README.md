@@ -1,4 +1,4 @@
-# Checkurl
+# External Check URL
 
 This service is designed to run on a Kubernetes Cluster to monitor internet urls and provide Prometheus metrics.Checkurl service written in python that queries 2 urls https://httpstat.us/503 & https://httpstat.us/200.The service will check the external urls (https://httpstat.us/503 & https://httpstat.us/200 ) are up (based on http status code 200) and response time in milliseconds.
 This service will check the internet urls after every 30 seconds and metrics will be updated accordingly.
@@ -40,7 +40,7 @@ To see the logs of this service
 kubectl logs -n <namespace> <podname>
 ```
 
-# Acces metrics
+# Service metrics
 
 We have deployed the service as NodePort type which enable us to reach the pod service oustide cluster.
 ```
