@@ -55,3 +55,6 @@ http://172.16.220.8:32203/metrics
 ![URL UP](url_up.PNG)
 ![RESPONSE TIME](response.PNG)
 ![TARGETS](Targets.PNG)
+
+# Grafana Screenshots
+![Dashboard](grafana.PNG)
