@@ -7,13 +7,13 @@ This service will check the internet urls after every 30 seconds and metrics wil
 
 To build docker image run
 ```
-docker build -t <repositorty/imagename>:tag .
+docker build -t <repository/imagename>:tag .
 ```
 Dockerfile for this project take python alpine image and copy the main.py along with requirements.txt which are python packages required to run this service.
 
 # Push Docker Image
 ```
-docker push <repostiory/imagename>:tag
+docker push <repository/imagename>:tag
 ```
 
 # Deploy Kubernetes manifest
